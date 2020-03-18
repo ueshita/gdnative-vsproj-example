@@ -1,0 +1,16 @@
+[general]
+
+singleton=false
+load_once=true
+symbol_prefix="godot_"
+reloadable=true
+
+[entry]
+
+Windows.64="res://myplugin/win64/libmyplugin.dll"
+Windows.32="res://myplugin/win32/libmyplugin.dll"
+
+[dependencies]
+
+Windows.64=[  ]
+Windows.32=[  ]
